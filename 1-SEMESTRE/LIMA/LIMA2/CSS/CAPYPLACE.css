@@ -1,0 +1,16 @@
+
+.nav{
+    background-color: rgb(173, 105, 46);
+    padding: 40px, 60px;
+}
+
+.nav ul{
+    list-style: none;
+    margin: auto;
+    padding: 3%;
+    display: flex;
+}
+
+.nav ul li{
+    margin-right: 70px;
+}
