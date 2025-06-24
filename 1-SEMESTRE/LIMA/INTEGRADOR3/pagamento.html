@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meus Pedidos | Honey Plushies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+   <header>
+    <!--NAVBAR-->
+    <nav>
+      <a href="home.html"><img id="logoNav" src="img/Captura de tela 2025-06-11 135124.png" /></a>
+      <h1>🐝 Honey Plushies</h1>
+      <ul>
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <a href="login.html">Log-out</a>
+        </li>
+        <li>
+          <a href="catalogo.html">Catálogo</a>
+        </li>
+        <li>
+          <a href="carrinho.html">Carrinho</a>
+        </li>
+        <li>
+          <a href="perfil.html">Perfil</a>
+        </li>
+        <li>
+          <a href="home.html#introducao">Sobre Nós</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<body>
+  <main id="tela-pagamento">
+    <form action="processa-pagamento.html" method="post" class="form-pagamento">
+      <h2 class="titulo">Escolha a forma de pagamento</h2>
+      
+      <label class="opcao-pagamento">
+        <input type="radio" name="pagamento" value="cartao" required class="input-pagamento" />
+        Cartão de Crédito
+      </label>
+      
+      <label class="opcao-pagamento">
+        <input type="radio" name="pagamento" value="boleto" class="input-pagamento" />
+        Boleto Bancário
+      </label>
+      
+      <label class="opcao-pagamento">
+        <input type="radio" name="pagamento" value="pix" class="input-pagamento" />
+        Pix
+      </label>
+      
+      <a href="comprafinal.html" class="botao">Finalizar Compra</a>
+  </main>
+</body>
